@@ -1,0 +1,35 @@
+.content-wrap.index-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.profile-image {
+  margin-top: 100px;
+  height: 175px;
+  width: 175px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.profile-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.greetings {
+  margin-top: 45px;
+  font-size: 3em;
+}
+
+.profile-summary {
+  margin-top: 25px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.content .social-links {
+  margin-bottom: 120px;
+}

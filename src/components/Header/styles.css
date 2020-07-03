@@ -1,0 +1,62 @@
+.header {
+  height: 8.6rem;
+  width: 100%;
+  background-color: #131212;
+  padding: 26px 27px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-padding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1000px;
+  min-width: 260px;
+  width: 100%; */
+}
+
+
+.logo .user-image {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.logo .fake-logo {
+  height: 42px;
+  width: 42px;
+}
+
+.menu-list.menu-options {
+  display: none;
+}
+
+.menu-list .menu-option {
+  margin-right: 21px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.menu-list .menu-option:last-of-type {
+  margin-right: 0px;
+}
+.menu-list .menu-option.active {
+  background-color: #545353;
+  border-radius: 5px;
+  padding: 9px 18px; 
+}
+
+
+/* Tablets adn beyond */
+@media only screen and (min-width: 600px) {
+  .menu-hambugger {
+    display: none;
+  }
+
+  .menu-list.menu-options {
+    display: block;
+  }
+}

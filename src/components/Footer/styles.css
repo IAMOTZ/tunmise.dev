@@ -1,0 +1,84 @@
+.footer {
+  height: 309px;
+  width: 100%;
+  background-color: #131212;
+  position: absolute;
+  bottom: 0;
+  padding: 0 27px;
+}
+
+.content-wrap.footer-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me {
+  font-size: 20px;
+  background: #FFFFFF;
+  border: 1px solid #C8C6C6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 218px;
+  height: 182px;
+  margin-top: -45px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.hello-btn {
+  height: 47px;
+  background-color: #131212;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 11px;
+  text-decoration: none;
+}
+
+.social-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin-left: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link.linkedin img {
+  height: 20px;
+  width: 20px;
+  margin-top: -2px;
+}
+
+.social-links .social-link:first-child {
+  margin-left: 0px;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 43px;
+}
+
+.contact-me img {
+  color: white;
+}
+
+/* Tablets adn beyond */
+@media only screen and (min-width: 600px) {
+  .content-wrap.footer-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

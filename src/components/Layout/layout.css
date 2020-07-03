@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+}
+
+
+
+html {
+  /* font: 112.5%/1.45em georgia, serif; */
+  box-sizing: border-box;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+
+@font-face {
+  font-family: SourceCodePro;
+  src: url('../../fonts/source_code_pro_regular.ttf')
+}
+
+@font-face {
+  font-family: SourceCodeProBold;
+  src: url('../../fonts/source_code_pro_bold.ttf')
+}
+
+@font-face {
+  font-family: SourceCodeProMedium;
+  src: url('../../fonts/source_code_pro_medium.ttf')
+}
+
+@font-face {
+  font-family: SourceCodeProSemiBold;
+  src: url('../../fonts/source_code_pro_semi_bold.ttf')
+}
+
+
+body {
+  margin: 0;
+  font-family: SourceCodePro, "Lucida Console", Monaco, monospace;
+}
+
+/* Small Screen */
+/* @media only screen and (max-width: 600px) {
+  html {
+    font-size: 100%;
+  }
+} */
+
+
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* 
+- make nav links font size smaller - like 20px
+- Fix hte padding issue on active links so that it does not look like the link is moving around
+ */
+
+.container {
+  padding-bottom: 400px;
+  min-height: 100vh;
+  position: relative;
+}
+
+.content-wrap {
+  max-width: 800px;
+  min-width: 260px;
+  width: 100%;
+}
