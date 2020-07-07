@@ -13,7 +13,7 @@
 .page-title span {
   font-size: 2.3rem;
   font-weight: normal;
-  font-family: SourceCodeProSemiBold;
+  font-family: SourceCodeProSemiBold, "Lucida Console", Monaco, monospace;
 }
 
 .display-type {

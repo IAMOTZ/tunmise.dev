@@ -5,9 +5,8 @@
 
 .tools-category-name {
   font-style: normal;
-  /* font-weight: bold; */
   font-size: 2rem;
-  font-family: SourceCodeProMedium;
+  font-family: SourceCodeProMedium, "Lucida Console", Monaco, monospace;
   text-transform: capitalize;
 }
 
