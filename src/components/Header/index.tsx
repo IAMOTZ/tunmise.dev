@@ -14,11 +14,6 @@ interface HeaderProps {
 
 export default ({ showOverlay, displayOverlay, uri }: HeaderProps) => {
   const isHomePage = uri === "/"
-  const linkClassNames = page =>
-    classnames({
-      "menu-option": true,
-      active: page === uri,
-    })
   return (
     <div className="header">
       <div className="header-padding content-wrap">
