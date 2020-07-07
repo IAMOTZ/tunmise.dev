@@ -41,9 +41,9 @@
   margin-right: 0px;
 }
 .menu-list .menu-option.active {
-  background-color: #545353;
-  border-radius: 5px;
-  padding: 9px 18px; 
+  border-radius: 2px;
+  border-bottom: 3px solid #545353;
+  padding-bottom: 5px;
 }
 
 
