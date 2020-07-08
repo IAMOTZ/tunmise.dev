@@ -1,6 +1,5 @@
 import React from "react"
 import Link from "gatsby-link"
-import classnames from "classnames"
 import "./styles.css"
 import fakeLogo from "../../images/logo/fake-logo.svg"
 import userImage from "../../images/tunmise.png"
