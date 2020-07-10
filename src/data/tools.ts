@@ -1,9 +1,4 @@
-import expressLogo from "../images/logo/expressjs.svg"
-import jestLogo from "../images/logo/linkedin.svg"
-import reduxLogo from "../images/logo/redux.svg"
-import webpackLogo from "../images/logo/webpack.svg"
-import mochaLogo from "../images/logo/mochajs.svg"
-import nodejsLogo from "../images/logo/nodejs.svg"
+const getLogo = (name) => require(`../images/logo/${name}.svg`);
 
 export interface Tool {
   name: string
@@ -21,61 +16,115 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "JavaScript",
-        logo: "",
+        logo: getLogo('javascript'),
       },
       {
         name: "TypeScript",
-        logo: reduxLogo,
+        logo: getLogo('redux'),
       },
     ],
   },
   {
-    categoryName: "framework",
+    categoryName: "Frameworks",
     tools: [
       {
-        name: "Redux",
-        logo: "",
+        name: "React",
+        logo: getLogo('react'),
       },
       {
-        name: "React",
-        logo: "",
+        name: "Redux",
+        logo: getLogo('redux'),
       },
       {
         name: "NodeJS",
-        logo: nodejsLogo,
+        logo: getLogo('nodejs'),
       },
       {
         name: "Express",
-        logo: expressLogo,
+        logo: getLogo('express'),
       },
       {
-        name: "Express",
-        logo: expressLogo,
-      },
-      {
-        name: "Express",
-        logo: expressLogo,
-      },
-      {
-        name: "Express",
-        logo: expressLogo,
+        name: "MeteorJS",
+        logo: getLogo('meteor'),
       },
     ],
   },
   {
-    categoryName: "datastore",
+    categoryName: "DataStores",
     tools: [
       {
         name: "MongoDB",
-        logo: mochaLogo,
+        logo: getLogo('mongodb'),
       },
       {
         name: "Firebase",
-        logo: "",
+        logo: getLogo('firebase'),
       },
       {
         name: "PostgresQL",
-        logo: "",
+        logo: getLogo('postgresql'),
+      },
+    ],
+  },
+  {
+    categoryName: "Testing",
+    tools: [
+      {
+        name: "Jest",
+        logo: getLogo('jest'),
+      },
+      {
+        name: "Mocha",
+        logo: getLogo('mocha'),
+      },
+    ],
+  },
+  {
+    categoryName: "Bundling",
+    tools: [
+      {
+        name: "Webpack",
+        logo: getLogo('webpack'),
+      },
+      {
+        name: "Babel",
+        logo: getLogo('babel'),
+      },
+    ],
+  },
+  {
+    categoryName: "API Design",
+    tools: [
+      {
+        name: "Swagger",
+        logo: getLogo('swagger'),
+      },
+    ],
+  },
+  {
+    categoryName: "Source Control",
+    tools: [
+      {
+        name: "GitHub",
+        logo: getLogo('github'),
+      },
+    ],
+  },
+  {
+    categoryName: "CI/CD",
+    tools: [
+      {
+        name: "TravisCI",
+        logo: getLogo('travis-ci'),
+      },
+    ],
+  },
+  {
+    categoryName: "Code Editing",
+    tools: [
+      {
+        name: "VSCode",
+        logo: getLogo('vs-code'),
       },
     ],
   },
