@@ -12,7 +12,9 @@ const Tool = ({ tool }: ToolProps) => {
       <div className="tool-image-container">
         <img src={tool.logo} alt={tool.name} />
       </div>
-      <span className="tool-name">{tool.name}</span>
+      <a href={tool.link} className="tool-name">
+        {tool.name}
+      </a>
     </div>
   )
 }
