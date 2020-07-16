@@ -1,11 +1,13 @@
-const getLogo = (name) => require(`../images/logo/${name}.svg`);
+const getLogo = name => require(`../images/logo/${name}.svg`)
 
 export interface Tool {
+  id?: string | number
   name: string
   logo: string
 }
 
 export interface ToolCategory {
+  id?: string | number
   categoryName: string
   tools: Tool[]
 }
@@ -16,11 +18,11 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "JavaScript",
-        logo: getLogo('javascript'),
+        logo: getLogo("javascript"),
       },
       {
         name: "TypeScript",
-        logo: getLogo('redux'),
+        logo: getLogo("redux"),
       },
     ],
   },
@@ -29,23 +31,23 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "React",
-        logo: getLogo('react'),
+        logo: getLogo("react"),
       },
       {
         name: "Redux",
-        logo: getLogo('redux'),
+        logo: getLogo("redux"),
       },
       {
         name: "NodeJS",
-        logo: getLogo('nodejs'),
+        logo: getLogo("nodejs"),
       },
       {
         name: "Express",
-        logo: getLogo('express'),
+        logo: getLogo("express"),
       },
       {
         name: "MeteorJS",
-        logo: getLogo('meteor'),
+        logo: getLogo("meteor"),
       },
     ],
   },
@@ -54,15 +56,15 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "MongoDB",
-        logo: getLogo('mongodb'),
+        logo: getLogo("mongodb"),
       },
       {
         name: "Firebase",
-        logo: getLogo('firebase'),
+        logo: getLogo("firebase"),
       },
       {
         name: "PostgresQL",
-        logo: getLogo('postgresql'),
+        logo: getLogo("postgresql"),
       },
     ],
   },
@@ -71,11 +73,11 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "Jest",
-        logo: getLogo('jest'),
+        logo: getLogo("jest"),
       },
       {
         name: "Mocha",
-        logo: getLogo('mocha'),
+        logo: getLogo("mocha"),
       },
     ],
   },
@@ -84,11 +86,11 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "Webpack",
-        logo: getLogo('webpack'),
+        logo: getLogo("webpack"),
       },
       {
         name: "Babel",
-        logo: getLogo('babel'),
+        logo: getLogo("babel"),
       },
     ],
   },
@@ -97,7 +99,7 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "Swagger",
-        logo: getLogo('swagger'),
+        logo: getLogo("swagger"),
       },
     ],
   },
@@ -106,7 +108,7 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "GitHub",
-        logo: getLogo('github'),
+        logo: getLogo("github"),
       },
     ],
   },
@@ -115,7 +117,7 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "TravisCI",
-        logo: getLogo('travis-ci'),
+        logo: getLogo("travis-ci"),
       },
     ],
   },
@@ -124,7 +126,7 @@ const data: ToolCategory[] = [
     tools: [
       {
         name: "VSCode",
-        logo: getLogo('vs-code'),
+        logo: getLogo("vs-code"),
       },
     ],
   },
