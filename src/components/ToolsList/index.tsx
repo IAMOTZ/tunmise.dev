@@ -8,13 +8,13 @@ interface ToolListProps {
 }
 
 const ToolsList = ({ data }: ToolListProps) => {
-  return data.map(({ tools, categoryName }) => {
+  return data.map(({ tools, categoryName, id }) => {
     return (
-      <div className="tools-list">
+      <div className="tools-list" key={id || categoryName}>
         <span className="tools-category-name">{categoryName}</span>
         <div className="tools">
           {tools.map(tool => (
-            <Tool tool={tool} />
+            <Tool key={tool.id || tool.name} tool={tool} />
           ))}
         </div>
       </div>
