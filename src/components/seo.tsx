@@ -25,6 +25,9 @@ const SEO = ({ description, lang = "en", meta, title }: SEOProps) => {
             author
             description
             keywords
+            social {
+              twitter
+            }
           }
         }
       }
