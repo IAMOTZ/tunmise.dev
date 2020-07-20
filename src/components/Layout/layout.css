@@ -18,22 +18,26 @@ html {
 
 @font-face {
   font-family: SourceCodePro;
-  src: url('../../fonts/source_code_pro_regular.ttf')
+  src: url('../../fonts/source_code_pro_regular.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: SourceCodeProBold;
-  src: url('../../fonts/source_code_pro_bold.ttf')
+  src: url('../../fonts/source_code_pro_bold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: SourceCodeProMedium;
-  src: url('../../fonts/source_code_pro_medium.ttf')
+  src: url('../../fonts/source_code_pro_medium.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: SourceCodeProSemiBold;
-  src: url('../../fonts/source_code_pro_semi_bold.ttf')
+  src: url('../../fonts/source_code_pro_semi_bold.ttf');
+  font-display: swap;
 }
 
 
