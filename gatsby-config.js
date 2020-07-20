@@ -1,8 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `tunmise.dev`,
-    description: `This is Tunmise Ogunniyi personal website`,
-    author: `@IAMOTZ`,
+    title: "tunmise.dev",
+    description: "This is Tunmise Ogunniyi personal website",
+    author: "Tunmise Ogunniyi",
+    keywords:
+      "Tunmise, Ogunniyi, Tunmise Ogunniyi, Ogunniyi Tunmise, tunmise.dev, IAMOTZ, tunmee",
+    social: {
+      twitter: "dev_tunmise",
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
