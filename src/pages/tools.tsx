@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Layout from "../components/Layout"
 import ToolsList from "../components/ToolsList"
+import SEO from "../components/seo"
 import toolsData from "../data/tools"
 import listView from "../images/list-view.svg"
 import gridView from "../images/grid-view.svg"
@@ -14,8 +15,6 @@ const reformatData = data => {
   return [{ categoryName: "", tools }]
 }
 
-const ToolsData = typeof toolsData
-
 interface ToolsPageProps {
   uri: string
 }
@@ -26,6 +25,7 @@ const ToolsPage = ({ uri }: ToolsPageProps) => {
     setDisplayType({ withoutCategory: !displayType.withoutCategory })
   return (
     <Layout uri={uri}>
+      <SEO title="Tools" />
       <div className="content-wrap tools-page">
         <div className="page-title">
           <span>Technologies I Use</span>

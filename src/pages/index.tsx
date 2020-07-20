@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import SEO from "../components/seo"
 import tunmiseImage from "../images/tunmise.png"
 import githubLogo from "../images/logo/github.svg"
 import linkedinLogo from "../images/logo/linkedin.svg"
@@ -14,6 +15,7 @@ interface Props {
 
 const IndexPage = ({ uri }: Props) => (
   <Layout uri={uri}>
+    <SEO title="Home" />
     <div className="content-wrap index-page">
       <div className="profile-image">
         <img src={tunmiseImage} alt="tunmise"></img>
