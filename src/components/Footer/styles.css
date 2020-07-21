@@ -51,6 +51,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.footer .social-link:hover {
+  background-color: #e6e6e6;
 }
 
 .social-link.linkedin img {
