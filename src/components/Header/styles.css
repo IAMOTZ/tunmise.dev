@@ -37,6 +37,10 @@
   text-decoration: none;
 }
 
+.menu-list .menu-option:hover {
+  color: #e6e6e6;
+}
+
 .menu-list .menu-option:last-of-type {
   margin-right: 0px;
 }
