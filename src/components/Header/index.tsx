@@ -50,7 +50,7 @@ export default ({ showOverlay, displayOverlay, uri }: HeaderProps) => {
                 Contact
               </Link>
               <a
-                href="https://docs.google.com/document/d/1owXzjawd2uBz07Q3_DVAtoIRla7v0Hp3xWESBO49C5c/edit?usp=sharing"
+                href={process.env.RESUME_URL}
                 target="blank"
                 className="menu-option"
               >
