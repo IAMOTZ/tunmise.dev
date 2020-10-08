@@ -22,7 +22,18 @@ const IndexPage = ({ uri }: Props) => (
       </div>
       <div className="greetings">Hi, I am Tunmise</div>
       <div className="profile-summary">
-        FullStack Software Engineer @ShipStation @Andela
+        FullStack Software Engineer&nbsp;
+        <a className="company-name" target="blank" href="http://andela.com/">
+          @Andela
+        </a>
+        &nbsp;
+        <a
+          className="company-name"
+          target="blank"
+          href="https://www.firmatek.com/"
+        >
+          @Firmatek
+        </a>
       </div>
       <div className="social-links">
         <a
